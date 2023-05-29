@@ -6,14 +6,14 @@ public class Product {
     private double productPrice;
 
 
-    // Constructor
+    
     public Product(String productName, String productDetails, double productPrice) {
         this.productName = productName;
         this.productDetails = productDetails;
         this.productPrice = productPrice;
     }
 
-    // Getters and Setters
+    
     public String getName() {
         return productName;
     }
