@@ -11,7 +11,7 @@ public class TestCart {
 
 		Warehouse warehouse = new Warehouse();
 
-		// check the user is customer or admin
+		
 		while (true) {
 			System.out.println("\nAre you a customer or admin?");
 			System.out.println("Enter your role(customer/admin): ");
