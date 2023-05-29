@@ -56,7 +56,7 @@ public class TestCart {
 					}
 				}
 			} else if (role.equalsIgnoreCase("admin")) {
-				// add product quantity
+				
 				System.out.println("Enter product name: ");
 				String productName = scanner.next();
 				System.out.println("Enter product quantity: ");
