@@ -6,12 +6,12 @@ public class WarehouseDB {
 	private int newProductId;
     private ArrayList<Products> products = new ArrayList<Products>();
 
-    //constructor
+    
     public WarehouseDB() {
         this.newProductId = 0;
     }
 
-    //getters and setters
+    
     public int getId() {
         return newProductId;
     }
@@ -21,7 +21,7 @@ public class WarehouseDB {
         this.newProductId = newProductId;
     }
 
-    //addProduct
+   
     public void addProduct(Products product) {
         products.add(product);
         newProductId++;
@@ -39,7 +39,7 @@ public class WarehouseDB {
         System.out.println("Product not found in warehouse.");
     }
 
-    //updateProduct  by id
+   
     public void updateProduct(int id, String name, double price, String details, int quantity, double weight) {
         for (Products p : products) {
             if (getId() == id) {
