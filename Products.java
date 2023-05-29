@@ -8,7 +8,7 @@ public class Products {
 	    private double price;
 	    private double weightInLbs;
 
-		//constructor
+	
 	    public Products(String name, int quantity, String description, double price, double weightInLbs) {
 	        this.name = name;
 	        this.quantity = quantity;
@@ -17,7 +17,7 @@ public class Products {
 	        this.weightInLbs = weightInLbs;
 	    }
 
-		//getters and setters
+	
 	    public String getName() {
 	        return name;
 	    }
