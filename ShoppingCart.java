@@ -15,7 +15,7 @@ public class ShoppingCart {
 		shoppingCartName = name;
 	}
 
-	// add product to cart
+	
 	public void addProduct(Product product) {
 		products.add(product);
 		productQuantity++;
@@ -24,7 +24,7 @@ public class ShoppingCart {
 		System.out.println("Added " + product.getName() + " to cart. Current subtotal: $" + subTotal);
 	}
 
-	// delete product by product name
+	
 	public void deleteProduct(String productName) {
 		for (Product p : products) {
 			if (p.getName().equals(productName)) {
@@ -39,7 +39,7 @@ public class ShoppingCart {
 		System.out.println(productName + " not found in cart.");
 	}
 
-	// edit product quantity
+	
 	public void editProductQuantity(Product product, int quantity) {
 		if (products.contains(product)) {
 			if (quantity > 5) {
